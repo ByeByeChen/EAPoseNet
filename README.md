@@ -6,7 +6,6 @@ This repository contains the implementation of a lightweight animal pose estimat
 ## Table of Contents
 
 - [Abstract](#Abstract)
-- [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
   - [Training](#training)
@@ -20,13 +19,6 @@ This repository contains the implementation of a lightweight animal pose estimat
 ## Abstract
 
 Accurate and efficient estimation of animal poses is crucial across various fields, such as animal behavior research, pharmaceutical studies, and biomimetic robotics. However, pose estimation typically relies on complex models to achieve higher detection precision. When computational resources are limited, achieving real-time detection with high parametric calculations becomes challenging. Therefore, this paper proposes a lightweight animal pose estimation model (EAPoseNet) to address the need for real-time detection in resource constrained scenarios.
-
-## Features
-
-- **Lightweight Model**: Optimized for efficiency and speed without compromising accuracy.
-- **Easy to Use**: Simple training and inference scripts.
-- **Flexible**: Easily adaptable to different animal species.
-- **Based on mmpose**: Leveraging the powerful mmpose framework for model training and evaluation.
 
 ## Installation
 
@@ -79,7 +71,7 @@ python tools/test.py configs/your_config_file.py checkpoints/your_checkpoint.pth
 
 We have evaluated our model on various animal datasets and achieved competitive results. Below are some qualitative examples:
 
-![Example1](path/to/your/example1.png)
+![AP10K](ap10k.png)
 
 For detailed quantitative results, please refer to our [paper](link_to_your_paper).
 
