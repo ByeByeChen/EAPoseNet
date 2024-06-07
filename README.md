@@ -72,6 +72,19 @@ We have evaluated our model on various animal datasets and achieved competitive 
 
 ![AP10K](ap10k.png)
 
+### Quantitative Results
+
+Here are the quantitative results of our model on different datasets:
+
+| Dataset          |  AP  | PCK | AUC | Param(M) | FLOPs(G)|
+|------------------|------|-----|-----|----------|---------|
+| AP10K            | 73.5 |     |     | 12.3     | 2.5     |
+| Horse10          |      |99.9 |89.1 | 12.4     | 2.5     |
+| Vinegar Fly      |      |99.8 |92.2 | 12.4     | 2.5     |
+| Desert Locust    |      |     |93.5 | 12.4     | 2.5     |
+| Zebra            |      |     |92.8 | 12.3     | 2.5     |
+| Desert Locust    |      |     |87.8 | 12.3     | 2.5     |
+
 For detailed quantitative results, please refer to our [paper](link_to_your_paper).
 
 ## License
