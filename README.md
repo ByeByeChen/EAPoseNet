@@ -11,7 +11,6 @@ This repository contains the implementation of a lightweight animal pose estimat
   - [Training](#training)
   - [Inference](#inference)
 - [Results](#results)
-- [Contributing](#contributing)
 - [License](#license)
 - [Citation](#citation)
 - [Acknowledgements](#acknowledgements)
@@ -74,16 +73,6 @@ We have evaluated our model on various animal datasets and achieved competitive 
 ![AP10K](ap10k.png)
 
 For detailed quantitative results, please refer to our [paper](link_to_your_paper).
-
-## Contributing
-
-We welcome contributions to this project. If you would like to contribute, please follow these steps:
-
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature/some-feature`).
-3. Commit your changes (`git commit -am 'Add some feature'`).
-4. Push to the branch (`git push origin feature/some-feature`).
-5. Create a new Pull Request.
 
 ## License
 
