@@ -73,8 +73,7 @@ model = dict(
         init_cfg=dict(
         )),
     head=dict(
-        #type='MagicHead',
-        type='RTMCCHead',
+        type='MagicHead',
         in_channels=768,
         out_channels=9,
         input_size=codec['input_size'],
