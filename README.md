@@ -76,14 +76,14 @@ We have evaluated our model on various animal datasets and achieved competitive 
 
 Here are the quantitative results of our model on different datasets:
 
-| Dataset          |  AP  | PCK | AUC | Param(M) | FLOPs(G)|
-|------------------|------|-----|-----|----------|---------|
-| AP10K            | 73.5 |     |     | 12.3     | 2.5     |
-| Horse10          |      |99.9 |89.1 | 12.4     | 2.5     |
-| Vinegar Fly      |      |99.8 |92.2 | 12.4     | 2.5     |
-| Desert Locust    |      |     |93.5 | 12.4     | 2.5     |
-| Zebra            |      |     |92.8 | 12.3     | 2.5     |
-| Desert Locust    |      |     |87.8 | 12.3     | 2.5     |
+| Dataset          |  AP  | PCK | AUC | Param(M) | FLOPs(G)| Weights |
+|------------------|------|-----|-----|----------|---------|---------|
+| AP10K            | 73.5 |     |     | 12.3     | 2.5     | [Download](https://pan.baidu.com/s/1zmnF3kGXzC-HHFC-6iBHnw)|
+| Horse10          |      |99.9 |89.7 | 12.4     | 2.5     | [Download](https://pan.baidu.com/s/1CoeV99NHywkl07oTkSsdTg)|
+| Vinegar Fly      |      |99.8 |92.2 | 12.4     | 2.6     | [Download](https://pan.baidu.com/s/1DdcEisY1lXE9l6Q5bJYcvw)|
+| Desert Locust    |      |     |93.4 | 12.4     | 2.6     | [Download](https://pan.baidu.com/s/1hVYcXTKJLOq2Kggva1Y4rg)|
+| Zebra            |      |     |92.6 | 12.3     | 2.5     | [Download](https://pan.baidu.com/s/1xVU3NUXxsNT5tJdsJtrNAQ)|
+| Mouse            | 57.8 |100.0|88.0 | 12.3     | 2.5     | [Download](https://pan.baidu.com/s/1q1FsiDqAxUzn5IqSHMc9qw)|
 
 For detailed quantitative results, please refer to our [paper](link_to_your_paper).
 
